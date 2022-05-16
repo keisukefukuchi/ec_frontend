@@ -12,7 +12,6 @@
   margin-bottom: 30px;
   font-weight: lighter;
 }
-
 .login-head {
   font-weight: bolder;
   padding-left: 10px;
@@ -24,14 +23,71 @@
   font-size: 12px;
   margin-bottom: 20px;
 }
+.login-email,.login-password {
+  text-align: right;
+}
+.login-email input,.login-password input {
+  width: 230px;
+}
 .email,.password {
   font-size: 12px;
   font-weight: bolder;
 }
+.login-button {
+  margin-top: 50px;
+  text-align: center;
+}
+.login-button button {
+  width: 200px;
+  background-color: #000;
+  color: #fff;
+}
 
+/* register */
+.register-container {
+  padding: 20px;
+}
+
+.register-head-group{
+  border-bottom: 3px solid #000;
+  margin-bottom: 30px;
+}
+.register-header {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+.register-head {
+  font-weight: bolder;
+  padding-left: 10px;
+}
+.register-form {
+  margin: 10px;
+}
+.register-content {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.register-email,.register-password,.register-name {
+  text-align: right;
+}
+.register-email input,.register-password input,.register-name input {
+  width: 230px;
+}
+.register-button {
+  margin-top: 30px;
+  text-align: center;
+}
+.register-button button {
+  width: 200px;
+  background-color:#66CC33;
+  border: 1px solid #66CC33;
+  color: #fff;
+}
 /* auth */
 .auth-container {
-  width: 1000px;
+  width: 870px;
   margin: 100px auto;
   display: flex;
+  justify-content: space-around;
 }
